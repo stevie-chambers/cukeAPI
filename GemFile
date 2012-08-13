@@ -1,0 +1,22 @@
+source :rubygems
+
+# Build stuff
+gem 'rake'
+gem 'watchr'
+gem 'bcat'
+
+# General stuff
+gem 'aruba'
+gem 'cucumber'
+gem 'rake'
+gem 'rspec'
+gem 'rspec-expectations'
+
+# API stuff
+gem 'sinatra'
+gem 'rack'
+gem 'rack-test'
+gem 'json'
+gem 'httparty'
+gem 'childprocess'
+gem 'service_manager'
