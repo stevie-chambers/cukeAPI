@@ -1,18 +1,18 @@
-Given /^the API root URI is "(.*?)"$/ do |api_uri|
+Given /^the root URI is "(.*?)"$/ do |api_uri|
   @api_uri = api_uri
 end
 
-And /^the client expects "(.*?)"$/ do |accept|
+And /^the client requests a content type of "(.*?)"$/ do |accept|
   header 'Accept', accept
   header 'Content-type', accept
 end
 
-When /^the client reads the API URI$/ do
+When /^the client reads the URI$/ do
   get(@api_uri)
 end
 
-Then /^the HTTP response code should be (\d+)$/ do |code|
-  last_response.status.to_s.should == code
+Then /^the HTTP response code should be "(.*?)"$/ do |status|
+  last_response.status.to_s.should == status
 end
 
 And /^the response output format should be "(.*?)"$/ do |format|
