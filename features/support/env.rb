@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), '..', 'lib/cukeAPI')
+require File.join(File.dirname(__FILE__), '..', '..', 'lib/cukeAPI.rb')
 require 'rack/test'
 
 module AppHelper
