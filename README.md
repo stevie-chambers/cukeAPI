@@ -27,8 +27,7 @@ RESTful then (a) I'm more likely to use it, because I grok REST, and (b) my expe
 I can just discover and work with your API and won't have to use WADL/WSDL or any other method of
 learning your API first.
 
-Most importantly, if you say your API is RESTful then I expect it to at least do the basics with
-using the right HTTP verbs, and these expectations are what should be coded in cukeAPI.
+So let's be frank: if you say "My API is RESTful" and that is a hollow statement, a marketing gimmick, then you'll have 100kg of unhappy Yorkshireman on your doorstep: and nobody wants that, trust me!
 
 Here's some other examples of what cukeAPI will test for, basically these are RESTful rules:
 
