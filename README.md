@@ -2,7 +2,7 @@
 
 cukeAPI is a tool used to develop and test an API using Test-Driven Development (TDD).
 
-Maybe one day cukeAPI will also generate the API, but that's over the horizon.
+Maybe one day cukeAPI will morph into pukeAPI and generate the API, but that's over the horizon.
 
 ## What's the big idea?
 
