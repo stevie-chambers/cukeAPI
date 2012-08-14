@@ -2,9 +2,9 @@ Given /^the root URI is "(.*?)"$/ do |api_uri|
   @api_uri = api_uri
 end
 
-And /^the client requests a content type of "(.*?)"$/ do |accept|
-  header 'Accept', accept
-  header 'Content-type', accept
+And /^the client requests a content type of "(.*?)"$/ do |content_type|
+  header 'Accept', content_type
+  header 'Content-type', content_type
 end
 
 When /^the client reads the URI$/ do

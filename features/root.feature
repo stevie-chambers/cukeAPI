@@ -10,4 +10,4 @@ Feature: Root
     When the client reads the URI
     Then the HTTP response code should be "200"
     And the response output format should be "text/html"
-    And the output should contain "Hello, Machine!"
+    And the output should contain "cukeAPI Root"
